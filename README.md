@@ -8,6 +8,7 @@ Game Engine
 ...> git commit -m "Setup basic Application and Entry Point."
 ...> git branch
 ...> git log
+...> git pull origin main
 ...> git push origin master
 
 Output Directory:$(SolutionDir)bin\$(Configuration)-$(Platform)\$(ProjectName)\
