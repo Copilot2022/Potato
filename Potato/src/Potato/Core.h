@@ -5,7 +5,9 @@
 		#define POTATO_API __declspec(dllexport)
 	#else
 		#define POTATO_API __declspec(dllimport)
-	#endif // PT_BUILD_DLL
+	#endif
 #else
 	#error Potato only supports Windows!
-#endif // PT_PLATFORM_WINDOWS
+#endif
+
+#define BIT(x) (1 << x)

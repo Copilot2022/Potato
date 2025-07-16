@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Core.h"
+#include "Events/Event.h"
 
 namespace Potato
 {
@@ -13,7 +14,6 @@ namespace Potato
 		void Run();
 	};
 
-	// 将在客户端定义
 	Application* CreateApplication();
 
 }

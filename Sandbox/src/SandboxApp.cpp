@@ -14,7 +14,6 @@ public:
 	}
 };
 
-// 将在客户端定义
 Potato::Application* Potato::CreateApplication()
 {
 	return new Sanbox();
